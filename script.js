@@ -1,10 +1,10 @@
 var origBoard;
-let win = 0;
-let lose = 0;
-let draw = 0;
+let win      = 0;
+let lose     = 0;
+let draw     = 0;
 let huPlayer = 'O';
 let aiPlayer = 'X';
-let winCombos = [
+let winCombos= [
 	[0, 1, 2],
 	[3, 4, 5],
 	[6, 7, 8],
@@ -13,7 +13,7 @@ let winCombos = [
 	[2, 5, 8],
 	[0, 4, 8],
 	[6, 4, 2]
-]
+];
 
 const cells = document.querySelectorAll('.cell');
 startGame();
