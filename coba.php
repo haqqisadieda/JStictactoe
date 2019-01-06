@@ -1,4 +1,4 @@
 <?php
-    echo "i love php";
-    echo "try this at home";
+    echo "<p>i love php</p>";
+    echo "<p>try this at home</p>";
 ?>
